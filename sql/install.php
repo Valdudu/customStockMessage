@@ -25,7 +25,7 @@
  */
 $sql = array();
 
-$sql[] = 'ALTER TABLE ' . _DB_PREFIX_ . 'product  ADD `custom_dispo` after `date_add`';
+$sql[] = 'ALTER TABLE ' . _DB_PREFIX_ . 'product  ADD `custom_dispo` varchar(255) NOT NULL DEFAULT \'\' after `date_upd`';
 
 foreach ($sql as $query) {
     if (Db::getInstance()->execute($query) == false) {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>customStockMessage</name>
+    <displayName><![CDATA[Message personnalis&eacute; rupture de stock]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Permet d&#039;ajouter dans la page produit la possibilit&eacute; d&#039;&eacute;crire un message personalis&eacute; pour un produit en rupture de stock]]></description>
+    <author><![CDATA[Valentin Duplan]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
